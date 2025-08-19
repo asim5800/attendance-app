@@ -1,0 +1,8 @@
+/* Custom styles for the attendance application */
+body {
+    font-family: Arial, sans-serif;
+}
+
+#message {
+    font-size: 1rem;
+}
