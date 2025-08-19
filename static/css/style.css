@@ -1,8 +1,55 @@
 /* Custom styles for the attendance application */
+/* Global styles inspired by SalaryAdda */
 body {
-    font-family: Arial, sans-serif;
+    /* Soft gradient background similar to SalaryAdda's palette */
+    background: linear-gradient(135deg, #f1f9f5 0%, #e3f6ef 100%);
+    font-family: 'Roboto', sans-serif;
+    color: #0c4d39;
+    min-height: 100vh;
 }
 
+/* Logo styling */
+.logo {
+    width: 72px;
+    height: auto;
+}
+
+/* Card styling */
+.card {
+    border-radius: 16px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.card-title {
+    color: #0c4d39;
+}
+
+/* Primary button (Punch In) styling */
+.btn-success {
+    background-color: #30b087;
+    border-color: #30b087;
+    font-weight: 500;
+}
+.btn-success:hover,
+.btn-success:focus {
+    background-color: #259c74;
+    border-color: #259c74;
+}
+
+/* Secondary button (Punch Out) styling */
+.btn-danger {
+    background-color: #e74c3c;
+    border-color: #e74c3c;
+    font-weight: 500;
+}
+.btn-danger:hover,
+.btn-danger:focus {
+    background-color: #c0392b;
+    border-color: #c0392b;
+}
+
+/* Message styling */
 #message {
     font-size: 1rem;
 }
